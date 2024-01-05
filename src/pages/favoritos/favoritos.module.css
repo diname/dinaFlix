@@ -1,0 +1,41 @@
+.capa {
+  width: 500px;
+  max-width: 100%;
+  max-height: 340px;
+  object-fit: cover;
+
+  border-radius: 8px;
+}
+
+.container-favorites {
+  display: flex;
+  flex-direction: column;
+}
+
+.favorite button {
+  margin-right: 12px;
+  margin-top: 14px;
+  margin-left: 0;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.favorite a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.favorite button:hover {
+  background-color: #116feb;
+  color: #fff;
+}
+
+.favorite a:hover {
+  color: #fff;
+}
