@@ -1,7 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom'
 
 import { Home } from './pages/home'
-import { Sobre } from './pages/sobre'
 import { NotFound } from './pages/erro'
 import { Favoritos } from './pages/favoritos'
 
@@ -19,10 +18,6 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />
-      },
-      {
-        path: 'sobre',
-        element: <Sobre />
       },
       {
         path: 'favoritos',
