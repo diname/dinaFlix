@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams, useNavigate, Link } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
 import api from '../../services/api'
@@ -87,6 +87,9 @@ export function Filme() {
           >
             Trailer
           </a>
+        </button>
+        <button>
+          <Link to="/favoritos">Favorito</Link>
         </button>
       </div>
     </div>
